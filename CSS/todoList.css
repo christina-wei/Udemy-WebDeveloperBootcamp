@@ -1,0 +1,26 @@
+/*Concepts
+1. Element selects all given element
+2. ID works on an individual element, unique per page
+2. Class works on elements for a given class, not unique
+*/
+
+/*Element Selector*/
+body{
+	background:orange;
+}
+
+/*styling an ID, which is unique in an html*/
+
+li {
+	border: 5px solid red;
+}
+
+/*ID Selector*/
+#firstElement {
+	background:blue;
+}
+
+/*Class Selector*/
+.completed {
+	text-decoration: line-through;
+}

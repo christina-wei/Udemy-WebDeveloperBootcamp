@@ -1,3 +1,8 @@
+
+/*selector {
+	property: value;
+}*/
+
 /*COLOR*/
 h1 {
 	/*color code, like blue*/
@@ -11,6 +16,7 @@ h1 {
 	color: rgb(0,0,255);
 	color: rgb(0,0,255,0.2);
 }
+
 
 
 li {
