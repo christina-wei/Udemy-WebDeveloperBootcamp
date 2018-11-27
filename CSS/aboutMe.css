@@ -1,0 +1,42 @@
+/*COLOR*/
+h1 {
+	/*color code, like blue*/
+	/*Hexadecimal number; red, green, blue -- FF is full on, 00 is none*/
+	/*RGB: Red, Green, Blue, from 0-255*/
+	/*RGBA: add in an alpha(transparency) channel, range from 0-1*/
+	/*use color picker to figure out what color it is*/
+
+	color: blue;
+	color: #0000FF;
+	color: rgb(0,0,255);
+	color: rgb(0,0,255,0.2);
+}
+
+
+li {
+	color: blue;
+	color: #FF1493;
+}
+
+/*BACKGROUND*/
+
+h4 {
+	background: rgb(255,050,050);
+}
+
+body {
+	/*background: pink;*/
+	background: url("https://images.unsplash.com/photo-1506689205310-0a29c388691c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a9c6f32de6731113f5e6f20a7ec86e80&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+	color: blue;
+	border: 5px solid purple;
+
+}
