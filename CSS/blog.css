@@ -1,0 +1,46 @@
+/*gray - border around the body 20px
+colors - #bdc3c7
+border: #2498db
+h2: #2c3e50
+font: source sans pro - google fonts
+left border
+
+date is all caps, letter spacing
+in betwen post -- HR styles*/
+
+body {
+	font-family: Source Sans Pro;
+	border: 20px #bdc3c7 solid;
+	max-width:700px;
+	width:80%;
+	margin: 20px auto;
+/*	margin-left:18%;
+	margin-right:18%;
+	margin-top:20px;*/
+	padding:20px;
+}
+.date {
+	text-transform: uppercase;
+	color:#3498db;
+	letter-spacing: 0.2rem;
+	border: 10px;
+}
+
+h2 {
+	color:#2c3e50;
+	font-weight:900;
+	font-size:2rem;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left:5px;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+hr {
+	border-top: 1px solid #bdc3c7;
+}
