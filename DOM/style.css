@@ -1,0 +1,11 @@
+/*put styling in CSS*/
+.style {
+	color: blue;
+	border: 10px solid red;
+	background: yellow;
+	/*margin-top: 200px;*/
+}
+
+.bolded {
+	font-size: 70px;
+}
