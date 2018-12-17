@@ -1,0 +1,10 @@
+/*Box: content, padding, border, margin*/
+
+p {
+	border: 2px solid blue;
+	width: 80%;
+	padding: 10px;
+	/*margin: 20px 40px 500px 100px;*/
+	/*margin top left bottom left*/
+	margin: px auto 20px auto;
+}

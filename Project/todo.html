@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do</title>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<!-- Google Fonts Roboto -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<p class="cell header">TO-DO LIST<span id="expand"><i class="fas fa-plus"></i><span></p>
+		
+		<div class="form">
+			<input class="cell item" type="text" placeholder="Add New Todo">
+			<ul>
+				<li class="cell item"><span class="trashcan"><i class="far fa-trash-alt"></i> </span>A Cat</li>
+				<li class="cell item"><span class="trashcan"><i class="far fa-trash-alt"></i> </span>Bobcat</li>
+				<li class="cell item"><span class="trashcan"><i class="far fa-trash-alt"></i> </span>Cats are good</li>
+				<li class="cell item"><span class="trashcan"><i class="far fa-trash-alt"></i> </span>Dogs are cute too</li>
+			</ul>
+		</div>
+
+	</div>
+
+<!-- Javascript -->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<script src="todo.js"></script>
+</body>
+</html>

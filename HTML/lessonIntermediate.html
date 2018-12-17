@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intermediate HTML</title>
+</head>
+<body>
+
+	<!-- table learnings -->
+	<!--thead and tbody used for semantics -->
+	<table>
+
+		<thead>
+			<th>Name</th><!-- table header-->
+			<th>Age</th>
+		</thead>
+
+		<tbody>
+			<tr> <!--table row-->
+				<td>Rusty</td> <!-- table data / cell -->
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>Anakin</td>
+				<td>10</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+
+	
+	<h1>Form Type Examples</h1>
+	<!-- Forms: form, input, label -->
+	<!-- Form: a container for a form.  -->
+	<!-- action: where to send the data -->
+	<!-- method: what type of HTTP request to send? e.g. get/post -->
+	<!-- input tag creates different types: text, date, file, checkbox go to MDN attributes to see details -->
+
+	<input type="text" name="">
+	<input type="color" name="">
+	<input type="radio" name="">
+	<input type="password" name="">
+	
+	<h1>Login Structure 1</h1>
+	
+	<form action="http://wikipedia.org" method="get">
+		<label>
+			Username: 
+			<input name="username" type="text" placeholder="username">
+		</label>
+		<label>
+			Password: 
+			<input name="password" type="password" placeholder="password">
+		</label>
+		<input type="submit">
+	</form>
+
+	<h1>Login Structure 2</h1>
+	<form action="http://wikipedia.org" method="get">
+		<label for="username">Username:</label> 
+		<input id ="username" name="username" type="text" placeholder="username" required>
+		<label for="email">Email:</label> 
+		<input id ="email" name="email" type="email" required>
+		<label for="password">Password:</label> 
+		<input id="password" name="username" type="password" placeholder="password" required>
+		<input type="submit">
+	</form>
+
+	<h1>Radio & Checkbox</h1>
+
+	<h2>Do you prefer cats or dogs?</h2>
+	<form>
+		<label for="dogs">Dogs: </label>
+		<input id="dogs" name="petChoice" type="radio" value="DOGS">
+		<label for="cats">Cats: </label>
+		<input id="cats" name="petChoice" type="radio" value="CATS">
+
+		<p>What's your current mood?</p>
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="dazed">O_o</option>
+			<option value="sad">:(</option>
+		</select>	
+		
+		<textarea name="comments" rows="10", cols="100"></textarea>
+		<button>GO!</button>
+	</form>
+	
+
+	<!-- Validations: required, type has build in structures -->
+
+</body>
+</html>
